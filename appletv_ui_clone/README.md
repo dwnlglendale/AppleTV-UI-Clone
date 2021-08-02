@@ -4,7 +4,7 @@ A [Flutter](https://flutter.dev/) implementation of Apple TV UI.
 <table>
   <tr>
     <td>
-      <img src="https://github.com/dwnlglendale/\apple_tv_clone\appletv_ui_clone\assets\screenshots\sn1.jpg" />
+      <img src="https://github.com/dwnlglendale/AppleTV-UI-Clone/appletv_ui_clone/assets/screenshots/Apple TV Clone.jpg" />
     </td>
   </tr>
 </table>
