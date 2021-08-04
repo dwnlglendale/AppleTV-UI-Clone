@@ -158,13 +158,13 @@ class _WatchNowState extends State<WatchNow> {
                     ),
                     Text(
                       "See All",
-                      style: TextStyle(fontSize: 24),
+                      style: TextStyle(fontSize: 24, color: Colors.blue),
                     ),
                   ],
                 ),
               ),
               Container(
-                height: 170,
+                height: 100,
                 decoration: BoxDecoration(
                   color: Colors.white12,
                 ),
@@ -172,7 +172,14 @@ class _WatchNowState extends State<WatchNow> {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Row(
-                      children: [Image(image: AssetImage("assets/movie1.jpg"))],
+                      children: [
+                        Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child:
+                                Image(image: AssetImage("assets/movie1.jpg")))
+                      ],
                     ),
                     SizedBox(
                       width: 3.5,
