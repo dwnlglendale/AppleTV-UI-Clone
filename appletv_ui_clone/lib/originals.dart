@@ -13,6 +13,7 @@ class _OriginalsState extends State<Originals> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Stack(
           children: [
             Column(
