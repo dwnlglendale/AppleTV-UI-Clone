@@ -35,6 +35,7 @@ class _OriginalsState extends State<Originals> {
                       PhotoList(
                         image: AssetImage("assets/movie3.jpg"),
                       ),
+                      PhotoList(image: AssetImage("assets/movie1.jpg"))
                     ],
                   ),
                 )
